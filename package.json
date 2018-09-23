@@ -1,0 +1,53 @@
+{
+  "name": "Edudr-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --require dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avell21/Edudr-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avell21/Edudr-backend/issues"
+  },
+  "homepage": "https://github.com/avell21/Edudr-backend#readme",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.29",
+    "aws-sdk": "^2.320.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "debug": "^4.0.1",
+    "dotenv": "^6.0.0",
+    "event": "^1.0.0",
+    "events": "^3.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "jwk-to-pem": "^2.0.0",
+    "mysql2": "^1.6.1",
+    "node-fetch": "^2.2.0",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0",
+    "sequelize": "^4.38.1",
+    "sequelize-cli": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "chai": "^4.1.2",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "husky": "^1.0.0-rc.15",
+    "lint-staged": "^7.3.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.14.3"
+  }
+}
